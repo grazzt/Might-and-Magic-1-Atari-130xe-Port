@@ -97,7 +97,9 @@ The C64 game has four 170 KB disk sides, each larger than an enhanced-density At
 
 ## Source
 
-The source of the port (the kernel, the build tools, the test harness and the design notes and log) **will be uploaded soon**.
+The port's source is in [`src/`](src/): the Atari kernel, boot code and title stage (6502 assembly), the build and disk-layout tools, the host-side model of the C64 game used to check it, the recorded key sessions, the tests, and the design notes and the full porting log. [`src/README.md`](src/README.md) says what is where and how to build.
+
+The original game is **not** included: the disk images, manuals and anything generated from the game are left out, so to rebuild the disks you need your own copy of the original. The build is not a one-command affair: it also needs cc65, VICE (to capture the C64 state the checks start from) and the Atari800 library, found through an environment variable. Built that way, the source produces exactly the disk images in this folder.
 
 ## Rights and credits
 
