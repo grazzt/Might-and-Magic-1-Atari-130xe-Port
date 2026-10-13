@@ -6,6 +6,8 @@
 
 This is not a rewrite. The C64 game's own 6502 code runs on the Atari, unchanged apart from the few instructions that address the C64's video, sound and timer chips. A small Atari kernel stands in for the rest of the C64 (screen, keys, sound, disk). The game's rules, its random numbers, its disk traffic and its save files are the original's, checked against the C64 version key by key.
 
+**Demo video:** [watch the game running on the Atari 130XE (YouTube)](https://www.youtube.com/watch?v=3K_Of-mzc7Q)
+
 ![The title](screenshots/intro-title.png)
 
 | | |
